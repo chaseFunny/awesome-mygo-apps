@@ -1,0 +1,59 @@
+name: 新项目收录请求
+description: 提交一个基于 mygo 的新项目，申请收录进 awesome-mygo-apps
+title: "[收录请求] "
+labels: ["new-project"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 项目名
+      description: owner/repo 格式，例如 xxx/mygo-app
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 仓库 URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: stars
+    attributes:
+      label: star 数
+      description: 当前 ⭐ 数量
+    validations:
+      required: true
+  - type: input
+    id: godep
+    attributes:
+      label: go.mod 依赖证据链接（raw）
+      description: raw.githubusercontent.com 下 go.mod 原文链接；monorepo 填实际模块路径；go.mod 404 则填 README 链接
+      placeholder: https://raw.githubusercontent.com/owner/repo/main/go.mod
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      placeholder: MIT / Apache-2.0 / 未声明
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: 最新 Release（可空）
+      placeholder: v0.1.0（2026-xx-xx）
+  - type: textarea
+    id: desc
+    attributes:
+      label: 一句话描述
+      description: 用途一句话说清
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **校验提示**：
+        - 0★ 暂不收录，达星后可重新申请；
+        - 审核流程见仓库根目录 `收录标准草案.md`。

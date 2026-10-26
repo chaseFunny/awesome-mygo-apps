@@ -1,0 +1,5 @@
+# 关闭空白 Issue：本仓库仅通过以下两个模板受理
+# - new-project.yml：新项目收录请求
+# - bug_report.md：清单内容 Bug 报告
+blank_issues_enabled: false
+contact_links: []

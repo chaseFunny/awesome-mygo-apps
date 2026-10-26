@@ -75,6 +75,7 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [oneo-me/neohm](https://github.com/oneo-me/neohm) — Home Assistant 菜单栏/托盘控制器（配套 onevra）。⭐ 9 · 未声明 · Release 0.2026.3（2026-10-20）
 - [Beeta/voxi](https://github.com/Beeta/voxi) — macOS 会议录音转写/摘要助手。⭐ 1 · MIT · Release v0.7.0（2026-10-19）
 - [FaintGhost/mac2mqtt](https://github.com/FaintGhost/mac2mqtt) — macOS 菜单栏 → Home Assistant over MQTT。⭐ 1 · MIT · Release v0.4.2（2026-10-25）
+- [chaseFunny/windeck](https://github.com/chaseFunny/windeck) — 窗签：像切浏览器标签一样切换 macOS 窗口（⌥Tab，按应用分组的标题 + 大预览，覆盖最小化/其他桌面/其他显示器的窗口）。⭐ 1 · MIT · Release v1.1.1（2026-10-22）
 - [echoVic/clipnest](https://github.com/echoVic/clipnest) — 现代轻量 Mac 剪贴板历史面板（快捷键+预览）。⭐ 0 · MIT · Release Clipnest 0.1.4（2026-10-15）
 
 ### 系统 · 监控
